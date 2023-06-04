@@ -80,13 +80,11 @@ public class MainActivity extends AppCompatActivity {
         mSqliteHelper.updateNewProduct(3,product1);
         }
 
-<<<<<<< HEAD
 
-=======
         mListProduct = mSqliteHelper.getListProduct();
         mProductAdapter.notifyDataSetChanged();
         rvDemo.setAdapter(mProductAdapter);
->>>>>>> 4ca4411 (Initial commit)
+
 
     }
     private void initView() {
